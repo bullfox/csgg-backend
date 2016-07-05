@@ -1,0 +1,34 @@
+get key
+get starting point
+get patch date
+
+init api and parser
+init ref data
+
+loop forever
+  if x time passed
+    insert top seeds at current location
+  get match id from primarylist
+  if didn't work
+    skip loop
+  if matchlist worked
+    loop through matches
+      if correct region and match not used
+        personmatches++
+        get match details
+        if didn't work
+          skip loop
+        if participants in details
+          store matchups in new thread
+          extract seeds in new thread
+          append game to used
+          store game in new thread
+      if !topseeds[person]
+        append them
+      else
+        add on matches
+  print progress
+  if not in mainseeds then 
+    add to it
+  
+    
