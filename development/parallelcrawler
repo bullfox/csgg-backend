@@ -1,0 +1,11 @@
+get starting id
+
+get games from starting id
+  process games
+  add to top seeds
+  add other ids to seed list
+
+loop through list
+  use threads to process list
+  
+  
