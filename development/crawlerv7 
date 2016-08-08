@@ -1,5 +1,0 @@
-machine learns
-holds list of user ids
-ranks them based on games obtained from them
-goes from top of list down to bottom
-user ids score based on how many games got 
